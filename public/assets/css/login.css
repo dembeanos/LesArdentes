@@ -1,0 +1,80 @@
+    :root {
+      --vert-medical: rgba(100, 161, 157, 0.7);
+      --vert-fonce: #146c43;
+      --fond-principal: #f0f8f5;
+      --blanc: #ffffff;
+      --gris-texte: #555555;
+    }
+
+    body {
+      background-color: var(--fond-principal);
+      font-family: "Nunito", sans-serif;
+      color: var(--gris-texte);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .login-container {
+      max-width: 600px;
+      margin: 80px auto 40px;
+      padding: 2rem;
+      background-color: var(--blanc);
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .login-container h2 {
+      color: var(--vert-medical);
+      margin-bottom: 1.5rem;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .form-login {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+
+    .form-login:focus {
+      border-color: var(--vert-medical);
+      box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+    }
+
+    .btn-login {
+      background-color: #64a19d !important;
+      color: #ffffff !important;
+      border-color: var(--vert-medical);
+      border-radius: 8px;
+      padding: 0.6rem;
+      font-weight: 500;
+    }
+
+    .btn-login:hover {
+      background-color: var(--vert-fonce);
+      border-color: var(--vert-fonce);
+    }
+
+    .text-muted a {
+      color: var(--vert-medical);
+      text-decoration: none;
+    }
+
+    .text-muted a:hover {
+      text-decoration: underline;
+    }
+
+    .login-logo {
+      display: block;
+      margin: 0 auto 1rem;
+      width: 120px;
+      height: 120px;
+      background: url('/Ardentes/public/assets/img/logoText.png') no-repeat center center;
+      background-size: contain;
+    }

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "fullcalendar": "^6.1.17",
+    "grayscale": "^0.0.2",
+    "gulp": "^5.0.0"
+  }
+}

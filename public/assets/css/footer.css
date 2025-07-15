@@ -1,0 +1,23 @@
+   :root {
+      --vert-medical: rgba(100, 161, 157, 0.7);
+   }
+    footer.footer {
+      background-color: var(--vert-medical) ! important;
+      color: white !important;
+      padding: 1rem 0;
+      margin-top: auto;
+    }
+
+    footer.footer a {
+      color: var(--blanc);
+      text-decoration: none;
+    }
+
+    footer.footer p{
+      color: var(--blanc);
+      text-decoration: none;
+    }
+
+    footer.footer a:hover {
+      text-decoration: underline;
+    }

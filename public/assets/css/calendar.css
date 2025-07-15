@@ -1,0 +1,36 @@
+:root {
+    --fc-button-bg-color: #2e8b57;
+    --fc-button-border-color: #2e8b57;
+    --fc-button-hover-bg-color: #246b45;
+    --fc-button-hover-border-color: #246b45;
+    --fc-button-active-bg-color: #1f5a3a;
+    --fc-button-active-border-color: #1f5a3a;
+
+    --fc-today-bg-color: #e0f7fa;
+    --fc-event-bg-color: #4caf50;
+    --fc-event-border-color: #388e3c;
+
+    --fc-border-color: #ccc;
+    --fc-page-bg-color: #ffffff;
+}
+
+#calendar-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#calendar a {
+    color: #64a19d !important;
+}
+
+#calendar {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,17 @@
+    body {
+      background-color: #f8fdf8;
+    }
+    h1, h2 {
+      color: #198754;
+    }
+    a {
+      color: #198754;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin-top: 40px;
+    }
