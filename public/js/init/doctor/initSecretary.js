@@ -1,5 +1,5 @@
-import { Messages } from '../../classes/doctor/Messages.js';
-import { CsrfManager } from '/Ardentes/public/js/classes/CsrfManager.js';
+import { Messages } from '/js/classes/doctor/Messages.js';
+import { CsrfManager } from '/js/classes/CsrfManager.js';
 
 
   const formSend = document.getElementById('formSendMessage');

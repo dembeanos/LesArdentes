@@ -12,7 +12,7 @@
 
     <link href="assets/css/home.css" rel="stylesheet" />
     <script src="js/login/menuManager.js"></script>
-    <link rel="stylesheet" href="/Ardentes/public/assets/css/popup.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
 </head>
 
 <body id="page-top">
@@ -28,7 +28,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" id='connexion' href="/Ardentes/public/login.php">Connexion</a></li>
+                    <li class="nav-item"><a class="nav-link" id='connexion' href="login.php">Connexion</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">Notre Engagement</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Notre Equipe</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -43,7 +43,7 @@
                 <div class="text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Cabinet des Ardentes</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Centre médical pluridisciplinaire.</h2>
-                    <a class="btn btn-primary" aria-label="Prendre rendez-vous au cabinet Les Ardentes" href="/Ardentes/public/patient-dashboard.php">Prendre Rendez-Vous</a>
+                    <a class="btn btn-primary" aria-label="Prendre rendez-vous au cabinet Les Ardentes" href="patient-dashboard.php">Prendre Rendez-Vous</a>
                 </div>
             </div>
         </div>
@@ -154,7 +154,7 @@
     </section>
     
     <footer class="footer bg-black small text-center text-white-50">
-        <div class="container px-4 px-lg-5"><a href="/Ardentes/public/legal-notice.php">Mentions Légales</a></div>
+        <div class="container px-4 px-lg-5"><a href="legal-notice.php">Mentions Légales</a></div>
         <br>
         <p style='color: white' ;>&copy; 2025 Cabinet des Ardentes. Tous droits réservés. — <span class="fst-italic">Copyright by dembean</span></p>
     </footer>

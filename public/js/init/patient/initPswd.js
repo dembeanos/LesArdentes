@@ -1,5 +1,5 @@
-import { Patient } from "../../classes/patient/Patient.js";
-import { CsrfManager} from "../../classes/CsrfManager.js";
+import { Patient } from "/js/classes/patient/Patient.js";
+import { CsrfManager} from "/js/classes/CsrfManager.js";
 
 const formPswd = document.getElementById("formPatientPswd");
 const formName = document.getElementById("formPatientPswd_formName");

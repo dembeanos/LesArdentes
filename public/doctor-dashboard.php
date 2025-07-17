@@ -25,11 +25,11 @@ Auth::requireDoctorLogin();
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- CSS personnalisé -->
-  <link rel="stylesheet" href="/Ardentes/public/assets/css/doctor-dashboard.css">
-  <link rel="stylesheet" href="/Ardentes/public/assets/css/popup.css">
+  <link rel="stylesheet" href="assets/css/doctor-dashboard.css">
+  <link rel="stylesheet" href="assets/css/popup.css">
 
   <!-- Script de gestion des onglets -->
-  <script type='module' src="/Ardentes/public/js/boot/bootDoctor.js" defer></script>
+  <script type='module' src="js/boot/bootDoctor.js" defer></script>
 </head>
 
 <body>

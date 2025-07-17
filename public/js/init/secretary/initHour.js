@@ -1,5 +1,5 @@
-import { CsrfManager } from '/Ardentes/public/js/classes/CsrfManager.js';
-import { OpenHours } from '/Ardentes/public/js/classes/secretary/OpenHours.js';
+import { CsrfManager } from '/js/classes/CsrfManager.js';
+import { OpenHours } from '/js/classes/secretary/OpenHours.js';
 
 const btnChange = document.getElementById('btnChangeHours');
 

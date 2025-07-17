@@ -1,6 +1,6 @@
-import { Messages } from '../../classes/secretary/Messages.js';
-import { Doctors } from '../../classes/secretary/Doctors.js';
-import { CsrfManager } from '/Ardentes/public/js/classes/CsrfManager.js';
+import { Messages } from '/js/classes/secretary/Messages.js';
+import { Doctors } from '/js/classes/secretary/Doctors.js';
+import { CsrfManager } from '/js/classes/CsrfManager.js';
 
 const doctorSelect = document.getElementById('doctorSelectMessage');
 if (doctorSelect) {

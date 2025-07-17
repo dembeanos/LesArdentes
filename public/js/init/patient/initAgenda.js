@@ -1,4 +1,4 @@
-import { Calendar } from "../../classes/patient/Calendar.js";
+import { Calendar } from "/js/classes/patient/Calendar.js";
 
 const doctorSelect = document.getElementById('doctorSelect');
 const calendarEl = document.getElementById('calendar');

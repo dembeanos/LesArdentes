@@ -1,6 +1,6 @@
-import { DoctorAppointments } from '../../classes/doctor/DoctorAppointments.js';
-import { CsrfManager } from '/Ardentes/public/js/classes/CsrfManager.js';
-import { MasterFetch } from '/Ardentes/public/js/promises/MasterFetch.js';
+import { DoctorAppointments } from '/js/classes/doctor/DoctorAppointments.js';
+import { CsrfManager } from '/js/classes/CsrfManager.js';
+import { MasterFetch } from '/js/promises/MasterFetch.js';
 
 const tbody = document.getElementById('doctor-appointments-tbody-global');
 

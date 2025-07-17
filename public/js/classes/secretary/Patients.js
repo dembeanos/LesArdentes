@@ -1,5 +1,5 @@
-import { MasterFetch } from '/Ardentes/public/js/promises/MasterFetch.js';
-import { Popup } from '/Ardentes/public/js/components/Popup.js';
+import { MasterFetch } from '/js/promises/MasterFetch.js';
+import { Popup } from '/js/components/Popup.js';
 
 export class Patients {
   constructor() {

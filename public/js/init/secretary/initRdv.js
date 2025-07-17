@@ -1,7 +1,7 @@
-import { Doctors } from '../../classes/secretary/Doctors.js';
-import { Patients } from '../../classes/secretary/Patients.js';
-import { Appointment } from '../../classes/secretary/Appointment.js';
-import { CsrfManager } from '/Ardentes/public/js/classes/CsrfManager.js';
+import { Doctors } from '/js/classes/secretary/Doctors.js';
+import { Patients } from '/js/classes/secretary/Patients.js';
+import { Appointment } from '/js/classes/secretary/Appointment.js';
+import { CsrfManager } from '/js/classes/CsrfManager.js';
 
 //Get la liste de tout les medecins du cabinet pour incrémentation des select généraux
 const doctorSelect = document.getElementById('doctorSelect');

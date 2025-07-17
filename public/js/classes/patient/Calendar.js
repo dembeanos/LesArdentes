@@ -1,5 +1,5 @@
-import { MasterFetch } from '/Ardentes/public/js/promises/MasterFetch.js';
-import { CsrfManager } from '/Ardentes/public/js/classes/CsrfManager.js';
+import { MasterFetch } from '/js/promises/MasterFetch.js';
+import { CsrfManager } from '/js/classes/CsrfManager.js';
 
 export class Calendar {
   async getList() {

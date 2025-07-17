@@ -1,5 +1,5 @@
-import { MasterFetch } from '/Ardentes/public/js/promises/MasterFetch.js';
-import { Consultation } from '/Ardentes/public/js/classes/doctor/Consultation.js';
+import { MasterFetch } from '/js/promises/MasterFetch.js';
+import { Consultation } from '/js/classes/doctor/Consultation.js';
 
 export class TodaysSchedule {
   constructor() {

@@ -1,6 +1,6 @@
-import { Doctors } from '../../classes/secretary/Doctors.js';
-import { Patients } from '../../classes/secretary/Patients.js';
-import { CsrfManager } from '/Ardentes/public/js/classes/CsrfManager.js';
+import { Doctors } from '/js/classes/secretary/Doctors.js';
+import { Patients } from '/js/classes/secretary/Patients.js';
+import { CsrfManager } from '/js/classes/CsrfManager.js';
 
 const modalAdd = document.getElementById('modalAddPatientGlobal');
 if (modalAdd) {

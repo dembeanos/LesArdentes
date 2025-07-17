@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap intégrale CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/Ardentes/public/assets/css/legal-notice.css">
-  <link rel="stylesheet" href="/Ardentes/public/assets/css/popup.css">
+  <link rel="stylesheet" href="assets/css/legal-notice.css">
+  <link rel="stylesheet" href="assets/css/popup.css">
 </head>
 <header>
   <!-- Inclusion du menu -->
@@ -83,7 +83,7 @@
     </section>
 
     <div class="text-center py-4 border-top mt-5">
-      <p><a href="/Ardentes/public/index.php">Retour</a></p>
+      <p><a href="index.php">Retour</a></p>
 </div>
   </div>
 

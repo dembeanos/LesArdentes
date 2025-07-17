@@ -1,0 +1,27 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+    environment:
+      - PGPASSWORD=${PGSQLPSWD}
+      - PGUSER=${PGSQLDBUSER}
+      - PGDATABASE=${PGSQLDBNAME}
+      - PGHOST=${PGSQLHOST}
+      - PGPORT=${PGSQLPORT}
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_USER=${PGSQLDBUSER}
+      - POSTGRES_PASSWORD=${PGSQLPSWD}
+      - POSTGRES_DB=${PGSQLDBNAME}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

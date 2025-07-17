@@ -1,6 +1,6 @@
 
-import { Patients } from '../../classes/doctor/Patients.js';
-import { CsrfManager } from '/Ardentes/public/js/classes/CsrfManager.js';
+import { Patients } from '/js/classes/doctor/Patients.js';
+import { CsrfManager } from '/js/classes/CsrfManager.js';
 
 (async function initPatients() {
   

@@ -19,10 +19,10 @@ Auth::requireSecretaryLogin();
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     rel="stylesheet" />
   <!-- CSS personnalisé -->
-  <link rel="stylesheet" href="/Ardentes/public/assets/css/secretary-dashboard.css">
-  <link rel="stylesheet" href="/Ardentes/public/assets/css/popup.css">
+  <link rel="stylesheet" href="assets/css/secretary-dashboard.css">
+  <link rel="stylesheet" href="assets/css/popup.css">
   <!-- Script de gestion des onglets et comportements JS -->
-  <script type="module" src="/Ardentes/public/js/boot/bootSecretary.js" defer></script>
+  <script type="module" src="js/boot/bootSecretary.js" defer></script>
 </head>
 
 <header>

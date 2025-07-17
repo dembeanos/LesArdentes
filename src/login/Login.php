@@ -143,9 +143,9 @@ final class Login {
                 if ($masterToken === true) {
 
                     $redirectUrl = match ($_SESSION['role']) {
-                        'doctor' => '/Ardentes/public/doctor-dashboard.php',
-                        'secretary' => '/Ardentes/public/secretary-dashboard.php',
-                        'patient' => '/Ardentes/public/patient-dashboard.php',
+                        'doctor' => '/doctor-dashboard.php',
+                        'secretary' => '/secretary-dashboard.php',
+                        'patient' => '/patient-dashboard.php',
                         default => null,
                     };
 

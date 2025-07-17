@@ -1,4 +1,4 @@
-import { Stats } from '/Ardentes/public/js/classes/doctor/Stats.js';
+import { Stats } from '/js/classes/doctor/Stats.js';
 
 window.addEventListener('load', async () => {
   const patientToday = document.getElementById('patientToday');

@@ -6,9 +6,9 @@ function ongletActivation(targetId) {
 }
 
 const initList = {
-  'agenda-section': '/Ardentes/public/js/init/patient/initAgenda.js',
-  'info-section': '/Ardentes/public/js/init/patient/initInfo.js',
-  'password-section': '/Ardentes/public/js/init/patient/initPswd.js'
+  'agenda-section': '/js/init/patient/initAgenda.js',
+  'info-section': '/js/init/patient/initInfo.js',
+  'password-section': '/js/init/patient/initPswd.js'
 };
 
 function launchScript(src) {

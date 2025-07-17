@@ -1,4 +1,4 @@
-import { TodaysSchedule } from '/Ardentes/public/js/classes/doctor/TodaySchedule.js';
+import { TodaysSchedule } from '/js/classes/doctor/TodaySchedule.js';
 
 window.addEventListener('load', async () => {
   const schedule = new TodaysSchedule();

@@ -129,7 +129,7 @@ public function startSession(): bool|array
         session_set_cookie_params([
             'lifetime' => 0,      // expire à la fermeture du navigateur
             'path'     => '/',
-            'secure'   => false,  // à true en production HTTPS
+            'secure'   => true,  // à true en production HTTPS
             'httponly' => true,
             'samesite' => 'Strict',
         ]);

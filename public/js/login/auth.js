@@ -1,4 +1,4 @@
-import { Popup } from '/Ardentes/public/js/components/Popup.js';
+import { Popup } from '../components/Popup.js';
 
 const login = document.getElementById('login');
 const password = document.getElementById('password');
@@ -14,7 +14,7 @@ btnSubmit.addEventListener('click', async (event) => {
   };
 
   try {
-    const response = await fetch('.././src/core/loginRouter.php', {
+    const response = await fetch('api/loginRouter.php', {
       method: 'POST',
       credentials: 'include',
       headers: {
@@ -57,12 +57,14 @@ btnSubmit.addEventListener('click', async (event) => {
     }
 
   } catch (error) {
-    console.error('Erreur fetch:', error);
+
+    const all = error.text();
+    console.error('Erreur fetch:', all);
 
     const errorPopup = new Popup(
       [],
       ['Erreur réseau ou serveur. Veuillez réessayer plus tard.'],
-      [error.message],
+      [],
       null
     );
     errorPopup.run();

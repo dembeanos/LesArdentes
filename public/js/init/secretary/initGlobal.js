@@ -1,5 +1,5 @@
-import { AppointmentCounter } from '../../classes/secretary/AppointmentCounter.js';
-import { UnreadMessages } from '../../classes/secretary/UnreadMessages.js';
+import { AppointmentCounter } from '/js/classes/secretary/AppointmentCounter.js';
+import { UnreadMessages } from '/js/classes/secretary/UnreadMessages.js';
 
 const rdvCountElem = document.getElementById('rdvCount');
 const unreadMessageElem = document.getElementById('unreadMessage');

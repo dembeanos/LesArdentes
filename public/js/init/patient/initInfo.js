@@ -1,5 +1,5 @@
-import { Patient } from "../../classes/patient/Patient.js";
-import { CsrfManager} from "../../classes/CsrfManager.js";
+import { Patient } from "/js/classes/patient/Patient.js";
+import { CsrfManager} from "/js/classes/CsrfManager.js";
 
 const formPatient = document.getElementById('formPatientInfo');
 const formName = document.getElementById("formPatientInfo_formName");
@@ -16,7 +16,6 @@ if (lastName && firstName && email && phone && address) {
   const fields = { lastName, firstName, email, phone, address };
   const patient = new Patient();
   patient.getPatientInfo(fields)
-
 }
 
 formPatient.addEventListener('submit', async(e)=>{

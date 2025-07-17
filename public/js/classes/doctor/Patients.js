@@ -1,6 +1,6 @@
-import { MasterFetch } from '/Ardentes/public/js/promises/MasterFetch.js';
-import { Popup } from '/Ardentes/public/js/components/Popup.js';
-import { CsrfManager } from '/Ardentes/public/js/classes/CsrfManager.js';
+import { MasterFetch } from '/js/promises/MasterFetch.js';
+import { Popup } from '/js/components/Popup.js';
+import { CsrfManager } from '/js/classes/CsrfManager.js';
 
 export class Patients {
   constructor() {

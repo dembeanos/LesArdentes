@@ -9,10 +9,10 @@ function ongletActivation(targetId) {
 }
 
 const initList = {
-  'rdv-section': '/Ardentes/public/js/init/secretary/initRdv.js',
-  'patients-section': '/Ardentes/public/js/init/secretary/initPatient.js',
-  'notify-section': '/Ardentes/public/js/init/secretary/initNotification.js',
-  'hours-section': '/Ardentes/public/js/init/secretary/initHour.js'
+  'rdv-section': '/js/init/secretary/initRdv.js',
+  'patients-section': '/js/init/secretary/initPatient.js',
+  'notify-section': '/js/init/secretary/initNotification.js',
+  'hours-section': '/js/init/secretary/initHour.js'
 }
 
 
@@ -25,8 +25,8 @@ function launchScript(src) {
   }
 }
 
-launchScript('/Ardentes/public/js/init/secretary/initGlobal.js');
-launchScript('/Ardentes/public/js/init/secretary/initRdv.js')
+launchScript('/js/init/secretary/initGlobal.js');
+launchScript('/js/init/secretary/initRdv.js')
 
 document.querySelectorAll('.sidebar .nav-link').forEach(link => {
   link.addEventListener('click', function(e) {

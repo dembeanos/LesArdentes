@@ -15,16 +15,16 @@ Auth::requirePatientLogin();
   <!-- Bootstrap CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet" />
   <!-- Style Page -->
-  <link rel="stylesheet" href="/Ardentes/public/assets/css/patient-dashboard.css">
-  <link rel="stylesheet" href="/Ardentes/public/assets/css/popup.css">
+  <link rel="stylesheet" href="assets/css/patient-dashboard.css">
+  <link rel="stylesheet" href="assets/css/popup.css">
   <!-- FullCalendar CSS -->
   <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/main.min.css' rel='stylesheet' />
   <!-- Style perso Calendar-->
-  <link rel="stylesheet" href="/Ardentes/public/assets/css/calendar.css">
+  <link rel="stylesheet" href="assets/css/calendar.css">
   <!-- FullCalendar JS api -->
   <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.17/index.global.min.js'></script>
   <!-- Gestion onglets et appels classes -->
-  <script src="/Ardentes/public/js/boot/bootPatient.js" defer></script>
+  <script src="js/boot/bootPatient.js" defer></script>
 </head>
 
 <header>

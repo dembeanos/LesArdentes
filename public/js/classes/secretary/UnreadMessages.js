@@ -1,4 +1,4 @@
-import { MasterFetch } from '/Ardentes/public/js/promises/MasterFetch.js';
+import { MasterFetch } from '/js/promises/MasterFetch.js';
 
 export class UnreadMessages {
   constructor() {

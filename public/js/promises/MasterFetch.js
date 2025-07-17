@@ -1,4 +1,4 @@
-import { Popup } from '/Ardentes/public/js/components/Popup.js';
+import { Popup } from '/js/components/Popup.js';
 
 export class MasterFetch {
 
@@ -20,7 +20,7 @@ export class MasterFetch {
 
  static async call(action, data = {}) {
   try {
-    const response = await fetch('/Ardentes/src/core/MasterRouter.php', {
+    const response = await fetch('/api/MasterRouter.php', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ action, ...data }),
