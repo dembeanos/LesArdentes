@@ -121,13 +121,10 @@ src/
 
 ## 6. Installation & démarrage
 
-```bash
-git clone <repo_url>
-cd project
-composer install
-cp .env.example .env        # Renseigner DB_*, CRYPTO_KEY
-# Importer schema.sql dans Postgres
-# Pointer votre serveur web sur public/
+```Installation de Docker
+   Importation des fichiers via git 
+   Se rendre dans le repo du téléchargement en console 
+   docker-compose up -d --build
 ```
 
 Lancer l’application dans votre navigateur, connecter un utilisateur, et naviguer dans les différents onglets.
